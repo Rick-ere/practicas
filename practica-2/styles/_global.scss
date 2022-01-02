@@ -1,0 +1,56 @@
+/*VARIABLES*/
+$color-primario: #9ECEFA;
+$color-secundario: #87119A;
+/**/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 20px 0;
+}
+
+section{
+    padding: 0 40px;
+    padding-top: 80px;
+
+    h2{
+        color: $color-secundario;
+        font-weight: 800;
+        text-transform: uppercase;
+        border-left: 5px solid $color-secundario;
+        height: 30px;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+/*STICKY FOOTER*/
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .wrap .main {
+    flex-grow: 1;
+  }
+
+  .main{
+      max-width: 960px;
+      margin: auto;
+  }

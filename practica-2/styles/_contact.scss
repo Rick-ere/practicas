@@ -1,0 +1,20 @@
+.contact{
+    div{
+        display: flex;
+        
+        figure{
+            width: 65%;
+        }
+
+        ul{
+            padding-left: 15px;
+            li{
+                padding-bottom: 10px;
+                text-align: left;
+                b{
+                    font-weight: bolder;
+                }
+            }            
+        }
+    }
+}

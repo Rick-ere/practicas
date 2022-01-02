@@ -1,0 +1,38 @@
+/*VARIABLES*/
+$color-primario: #00AF1C;
+/**/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+section{
+    padding: 0 40px;
+    padding-top: 40px;
+}
+
+/*STICKY FOOTER*/
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .wrap .main {
+    flex-grow: 1;
+  }
+
+  .main{
+      max-width: 960px;
+      margin: auto;
+  }

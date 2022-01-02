@@ -1,0 +1,41 @@
+.contact{
+    padding-top: 40px;
+
+    h2{
+        color:brown;
+    }
+
+    p{
+        padding: 20px 0;
+    } 
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        input, textarea{
+            font-family: inherit;
+            padding: 15px;
+            outline: none;
+            border: 1px solid rgb(169, 169, 169);
+            &:focus{
+                border: 1px solid $color-primario;
+            }
+
+            &:hover{
+                border: 1px solid rgb(33, 207, 24);
+            }
+        }
+        button{
+            width: 200px;
+            padding: 15px;
+            border: 1px solid $color-primario;
+            background: white;
+            color: $color-primario;
+            &:hover{
+                background-color: $color-primario;
+                color: white;
+            }
+        }
+    }
+}

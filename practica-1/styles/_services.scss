@@ -1,0 +1,38 @@
+.services{
+    padding-top: 40px;
+
+    h2{
+        color:brown;
+    }
+
+    p:nth-child(2){
+        padding-top: 20px;
+    } 
+
+    p:nth-child(3){
+        padding: 20px 0;
+    }    
+
+    ul{
+        margin-top: 20px;
+        list-style:outside;   
+        
+        li{
+            font-weight: 500;
+            padding-top: 5px ;
+            margin-left: 20px;
+            &:nth-child(1){
+                color: rgb(209, 47, 47);
+            }
+            &:nth-child(2){
+                color: rgb(17, 0, 255);
+            }
+            &:nth-child(3){
+                color: rgb(185, 129, 25);
+            }
+            &:nth-child(4){
+                color: rgb(0, 255, 128);
+            }
+        }
+    }
+}

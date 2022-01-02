@@ -1,0 +1,14 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    figure{
+        width: 30%;
+    }
+    img{
+        width: 100%;
+        display: block;
+    }
+}
